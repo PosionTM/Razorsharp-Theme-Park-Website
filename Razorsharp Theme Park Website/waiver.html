@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href=".\CSS\waiver.css">
+    <script async src=".\Javascript\waiver.js"></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <h1 id="title">Razorsharp Theme Park</h1>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="tickets.html">Tickets & Prices</a>
+            <a href="rides.html">Rides</a>
+            <a href="waiver.html">Waiver</a>
+        </div>
+    </div>
+
+    <main>
+        <div>
+            <div id="warning_text">
+                <h2 id="warning_title">WARNING</h2>
+                <p>
+                    The signer of this electronic form agrees to the terms and conditions and waives the right to sue
+                    Razorsharp Theme park™ for any injuries suffered within the park. The signer of this form acknowledges the fact
+                    that they may be hurt by these rides and that these rides are designed for fun and extreme challenges, but 
+                    not for safety.
+                </p>
+            </div>
+            
+            <div id="table_container">
+                <table id="warning_table">
+                    <tr>
+                        <th>Warnings</th>
+                        <th>Risks</th>
+                        <th>Liability</th>
+                      </tr>
+                      <tr>
+                        <td>High coaster speeds</td>
+                        <td>Loss of consciousness</td>
+                        <td>PARK NOT LIABLE</td>
+                      </tr>
+                      <tr>
+                        <td>Coasters with no fencing</td>
+                        <td>Death</td>
+                        <td>PARK NOT LIABLE</td>
+                      </tr>
+                      <tr>
+                        <td>Expensive food</td>
+                        <td>Hunger</td>
+                        <td>PARK NOT LIABLE</td>
+                      </tr>
+                </table>
+            </div>
+            <div >
+                <form action="" id="form_waiver">
+                    <div>                
+                        <label for="first_name">First name:</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="last_name">Last name:</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+
+
+                    <div>
+                        <label for="phone_num">Phone number:</label>
+                        <input type="text" id="phone_num" name="phone_num">          
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="DOB_checkbox" name="DOB_checkbox">
+                        <label for="DOB_checkbox">I am 18 years of age or older </label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="acknowledge_checkbox" name="acknowledge_checkbox">
+                        <label for="acknowledge_checkbox">I have read the above notice and acknowledge the associated risks </label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="information_checkbox" name="information_checkbox">
+                        <label for="information_checkbox">I have entered all information correctly</label>
+                    </div>
+
+                    
+
+                    <input type="submit" id="submit_waiver" value="Submit">
+                    <div id="formErrors"></div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Park Prices</title>
+	<link rel="stylesheet" type="text/css" href=".\CSS\tickets.css">
+</head>
+<body>
+	<div class="nav-bar">
+        <h1 id="title">Razorsharp Theme Park</h1>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="tickets.html">Tickets & Prices</a>
+            <a href="rides.html">Rides</a>
+            <a href="waiver.html">Waiver</a>
+        </div>
+    </div>
+	<div id="header">
+		<!-- <img src=".\Images\rollercoaster.jpg" alt="Rollercoaster"> -->
+	  </div>
+	  <div class="summary">
+		<h2>Razersharp Theme Park</h2>
+		<p>Welcome to Razersharp Theme Park, the ultimate destination for thrill-seekers and adventure lovers! Our park is home to some of the most exciting rides and attractions in the world, including the fastest rollercoasters, tallest drop towers, and most immersive experiences.</p>
+		<p>Our rides are not for the faint of heart, but for those who crave an adrenaline rush like no other. Feel the wind in your hair as you soar through the air on our iconic rollercoasters, or brave the heights of our towering drop towers for a view like no other.</p>
+		<p>But Razersharp Theme Park is not just about thrills and excitement. We also offer a range of family-friendly attractions, including water parks, kiddie rides, and live entertainment shows that are sure to delight visitors of all ages. And when it comes to dining and shopping, we've got you covered with a wide variety of options to suit every taste and budget.</p>
+		<p>So come and experience the rush of a lifetime at Razersharp Theme Park, where the fun never stops and memories are made to last a lifetime. We can't wait to see you here!</p>
+	  </div>
+	<div class="container">
+		<div class="ticket">
+			<img src=".\Images\bronze_ticket_image.jpg" alt="Bronze Ticket Image">
+			<h2>Bronze Ticket</h2>
+			<p>$50</p>
+			<ul>
+				<li>Access to all bronze attractions</li>
+				<li>Free parking</li>
+			</ul>
+			<div class="quantity">
+				<button class="minus">-</button>
+				<span class="count">0</span>
+				<button class="plus">+</button>
+			</div>
+			<div class="checkbox">
+				<input type="checkbox" id="bronze" name="bronze">
+				<label for="bronze">Select</label>
+			</div>
+		</div>
+
+		<div class="ticket">
+			<img src=".\Images\silver_ticket_image.jpg" alt="Silver Ticket Image">
+			<h2>Silver Ticket</h2>
+			<p>$100</p>
+			<ul>
+				<li>Access to all bronze and silver attractions</li>
+				<li>Free parking</li>
+				<li>Fast pass access</li>
+			</ul>
+			<div class="quantity">
+				<button class="minus">-</button>
+				<span class="count">0</span>
+				<button class="plus">+</button>
+			</div>
+			<div class="checkbox">
+				<input type="checkbox" id="silver" name="silver">
+				<label for="silver">Select</label>
+			</div>
+		</div>
+
+		<div class="ticket">
+			<img src=".\Images\gold_ticket_image.jpg" alt="Gold Ticket Image">
+			<h2>Gold Ticket</h2>
+			<p>$150</p>
+			<ul>
+				<li>Access to all attractions</li>
+				<li>Free parking</li>
+				<li>Fast pass access</li>
+				<li>Exclusive VIP area access</li>
+				<li>Complimentary food and drinks</li>
+			</ul>
+			<div class="quantity">
+				<button class="minus">-</button>
+				<span class="count">0</span>
+				<button class="plus">+</button>
+			</div>
+			<div class="checkbox">
+				<input type="checkbox" id="gold" name="gold">
+				<label for="gold">Select</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="total">
+		Total Price: $<span id="total">0</span>
+	</div>
+
+	<script type="text/javascript" src=".\Javascript\tickets.js"></script>
+</body>
+</html>

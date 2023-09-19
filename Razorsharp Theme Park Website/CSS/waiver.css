@@ -1,0 +1,145 @@
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+    font-size: 1.25em;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    background-image: url("../Images/Rollercoasterbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    margin-left: 15px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+input.error  {
+    border: 2px solid red;
+ }
+
+#acknowledge_checkbox.error, #information_checkbox.error, #DOB_checkbox.error  {
+    outline: 1px solid red;
+ }
+
+#form_waiver{
+    display: grid;
+    grid-column: auto;
+    grid-row: 4fr 2fr;
+    grid-row-gap: 10px;
+    width: fit-content;
+    border: 2px solid black;
+    border-top: none;
+    padding: 10px;
+    background: #588abf;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+#table_container {
+    display: flex;
+    font-size: 1.3em;
+    border: 2px solid black;
+    border-top: none;
+    padding: 10px;
+    background: #588abf;
+    justify-content: center;
+    align-items: center;
+}
+
+#warning_table {
+    margin: 10px;
+    border: 2px solid black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#submit_waiver {
+    width: 9vh;
+    height: 3vh;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    background-color: rgb(187, 44, 34);
+    transition: background 250ms ease-in-out;
+    border: 2px solid black;
+}
+
+#submit_waiver:hover {
+    background-color: rgb(207, 64, 54);
+}
+
+#warning_text {
+    border: 2px solid black;
+    padding: 5px 10px;
+    background: #588abf;
+    border-bottom: none;
+}
+#warning_title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+
+
+}
+
+#last_name {
+    grid-column: 2;
+}
+
+#title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.nav-bar {
+    position: fixed;
+    background: #031d66;
+    width: 100%;
+    top: 0%;
+    margin: auto;
+
+}
+
+.nav-bar a {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 15px;
+    float: right;
+    background: darkslateblue;
+    width: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    text-decoration: solid;
+
+}
+.nav-bar a:hover {
+    color: pink;
+    background: rgb(68, 6, 90);
+}
+
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    
+}
