@@ -2,8 +2,7 @@
 
 ### Description
 ```
-The Salary Calculator is an android app that allows you to quickly break down annual salaries into 
-monthly, biweekly, and hourly values. Also breaks does this for hourly values as well.
+Razorsharp Theme Park is a website that showcases the thrilling adventures of a dangerous yet somehow legal theme park. Complete with a waiver to sign your rights away!
 ```
 ### Built with
 ```
@@ -12,6 +11,6 @@ CSS
 HTML
 ```
 ## Images
-<img src="Showcase Images/rider-page.png" width="200">
-<img src="Showcase Images/wavier-page.png" width="200">
-<img src="Showcase Images/home-page.png" width="200">
+<img src="Showcase Images/rider-page.png" width="500">
+<img src="Showcase Images/wavier-page.png" width="500">
+<img src="Showcase Images/home-page.png" width="500">
