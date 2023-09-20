@@ -2,8 +2,8 @@
 
 ### Description
 ```
-Razorsharp Theme Park is a website that showcases the thrilling adventures of a dangerous yet somehow legal theme park.
-Complete with a waiver to sign your rights away!
+Razorsharp Theme Park is a website that showcases the thrilling adventures of a dangerous yet
+somehow legal theme park. Complete with a waiver to sign your rights away!
 ```
 ### Built with
 ```
